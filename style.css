@@ -364,3 +364,12 @@ footer a:hover { color: var(--white); }
 .news-item p { color: var(--muted); font-size: 0.95rem; }
 .btn-newsletter { display: inline-block; margin-top: 0.75rem; padding: 0.45rem 1rem; background: var(--green-dark); color: white; font-family: var(--sans); font-size: 0.85rem; font-weight: 600; text-decoration: none; border-radius: 4px; letter-spacing: 0.03em; }
 .btn-newsletter:hover { background: var(--green); }
+
+/* Newsletter pages: BYD Shark / LGAO promo band (mirrors the email footer) */
+.nl-promo { background: var(--green-light); padding: 3rem 2rem; }
+.nl-promo-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; }
+.nl-promo img { width: 100%; border-radius: 8px; display: block; }
+.nl-promo-text { font-size: 1.05rem; line-height: 1.6; margin: 1rem 0 0.5rem; }
+.nl-promo-contact { font-family: var(--sans); font-size: 0.95rem; }
+.nl-promo-contact a { color: var(--green-dark); font-weight: 600; text-decoration: none; }
+@media (max-width: 700px) { .nl-promo-inner { grid-template-columns: 1fr; } }
